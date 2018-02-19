@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XamarinReduxDemo.Store\XamarinReduxDemo.Store.fsproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MvvmNano.Forms" Version="3.2.0" />
+    <PackageReference Include="MvvmNano.TinyIoC" Version="3.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modules\Users" />
+    <Folder Include="Shared\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Resources\2.jpg" />
+    <None Remove="Resources\3.jpg" />
+    <None Remove="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\2.jpg">
+      <LogicalName>2.jpg</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\3.jpg">
+      <LogicalName>3.jpg</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\1.jpg">
+      <LogicalName>1.jpg</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

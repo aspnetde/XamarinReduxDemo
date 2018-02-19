@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Domain.fs" />
+    <Compile Include="Actions.fs" />
+    <Compile Include="State.fs" />
+    <Compile Include="Reducers.fs" />
+    <Compile Include="Store.fs" />
+  </ItemGroup>
+</Project>
