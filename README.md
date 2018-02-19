@@ -4,4 +4,4 @@ This tiny demo project demonstrates how to implement a basic Redux Store for a C
 
 The app is using Xamarin.Forms and supports iOS and Android as target platforms. 
 
-The MVVM Framework in use is [MvvmNano](https://github.com/aspnetde/MvvmNano).
+The MVVM Framework in use is [MvvmNano](https://github.com/aspnetde/MvvmNano). Icons are coming from [Icons8](https://icons8.com/).

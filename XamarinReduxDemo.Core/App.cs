@@ -57,12 +57,14 @@ namespace XamarinReduxDemo.Core
 
             tabbedPage.Children.Add(new MvvmNanoNavigationPage(GetPageFor<UserListViewModel>())
             {
-                Title = "Users"
+                Title = "Users",
+                Icon = "users"
             });
             
             tabbedPage.Children.Add(new MvvmNanoNavigationPage(GetPageFor<CityListViewModel>())
             {
-                Title = "Cities"
+                Title = "Cities",
+                Icon = "cities"
             });
 
             MainPage = tabbedPage;
